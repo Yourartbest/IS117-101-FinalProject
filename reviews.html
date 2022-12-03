@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>GG Reviews</title>
+    <link rel="shortcut icon" href="img/logo-fav.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Brand -->
+    <a href="index.html" class="logo moved"><img src="img/logo.png" alt= "GG Reviews - logo (green game controller)"
+                                           width="65px" height="60px"></a>
+
+    <!-- Search Bar -->
+    <form action="#" class="searchBar">
+           <input class="input-group-sm" type="text">
+            <button type="submit" class="input-group-sm btn-success"><i class="search me-2"></i> Search</button>
+    </form>
+
+    <!-- DEVELOPER: Josh Mantilla, IS117-101, Fall 2022 -->
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Games
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="reviews.html">Reviews</a>
+                                <a class="dropdown-item" href="news.html">News</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </div>
+    <div class="col-xl-3 text-decoration-underline text-uppercase moved">
+        <h2 class ='darkgreen'>Reviews</h2>
+    </div>
+
+
+    <div class="row" id="review-cards">
+        <div class="card" style="max-width: 45%;">
+            <div class="row g-0">
+                <div class="col-sm-5">
+                    <img src="img/R.jpg" class="card-img-top h-100" alt="Breath of The Wild - world overview">
+                </div>
+                <div class="col-sm-7">
+                    <div class="card-body">
+                        <h4 class="card-title">Lorem ipsum</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit duis.
+                            Nulla facilisi morbi tempus iaculis urna id volutpat lacus.</p>
+                        <a href="article/botw.html" class="btn btn-primary stretched-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="max-width: 45%;">
+            <div class="row g-0">
+                <div class="col-sm-5">
+                    <img src="img/soul.jpg" class="card-img-top h-100" alt="Dark Souls - character dropping sand">
+                </div>
+                <div class="col-sm-7">
+                    <div class="card-body">
+                        <h4 class="card-title">Amet justo donec</h4>
+                        <p class="card-text">ed vulputate odio ut enim blandit. In hac habitasse platea dictumst
+                            quisque sagittis. Nisi est sit amet facilisis magna. Nisl nisi scelerisque eu ultrices.
+                        </p>
+                        <a href="article/soul.html" class="btn btn-primary stretched-link">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="max-width: 45%;">
+            <div class="row g-0">
+                <div class="col-sm-5">
+                    <img src="img/fornite.jpg" class="card-img-top h-100" alt="Fortnite - characters standing together with weapons">
+                </div>
+                <div class="col-sm-7">
+                    <div class="card-body">
+                        <h4 class="card-title">Euismod in pellentesque</h4>
+                        <p class="card-text">Commodo quis imperdiet massa tincidunt. At consectetur lorem donec massa
+                            sapien faucibus et molestie ac.
+                        </p>
+                        <a href="article/fort.html" class="btn btn-primary stretched-link">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="max-width: 45%;">
+            <div class="row g-0">
+                <div class="col-sm-5">
+                    <img src="img/vamp.jpg" class="card-img-top h-100" alt="Vampire Survivors - vampire staring at screen">
+                </div>
+                <div class="col-sm-7">
+                    <div class="card-body">
+                        <h4 class="card-title">Tincidunt tortor</h4>
+                        <p class="card-text">Aliquam nulla facilisi cras fermentum odio. Eget mauris pharetra et ultrices neque ornare. </p>
+                        <a href="article/vamp.html" class="btn btn-primary stretched-link">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Josh Mantilla, 2022 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

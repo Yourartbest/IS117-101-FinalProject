@@ -1,0 +1,112 @@
+/*DEVELOPER: Josh Mantilla, IS117-101, Fall 2022 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.logo {
+    float: left;
+}
+
+.searchBar {
+    float: right;
+    margin: 20px 0;
+
+}
+.searchBar button{
+    float: right;
+    background-color: darkgreen;
+    border-color: darkgreen;
+
+    margin: 0 30px 5px 0;
+}
+.container-fluid{
+    clear:both;
+}
+.navbar{
+
+    background-color: darkgreen !important;
+}
+
+h2 {
+    color: #1c1f23;
+}
+.carousel-inner > .carousel-item {
+    height: 350px;
+}
+.moved{
+    margin-left: 3%;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.form-group {
+    width: 100%;
+    float: right;
+    padding-top: 4%;
+}
+.info {
+    float: left;
+    width: 50%;
+}
+.darkgreen{
+    color: #0f5132;
+}
+html {
+    overflow: auto
+}
+#dingus{
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 1115px){
+    .info{ width: 100% !important; }
+    .form-group{ width: 100% !important;
+        padding-top: 1% !important;
+    overflow: auto !important;}
+    .form-container { width: 80% !important; float:left !important;}
+    button { display: block; float:right !important;}
+
+}
+@media only screen and (max-width: 767px){
+    .small-sizing {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .info{ width: 100% !important; }
+    .form-group{ width: 100% !important;
+        padding-top: 1% !important;
+        overflow: auto !important;}
+    .form-container { width: 80% !important; float:left !important;}
+    button { display: block; float:right !important;}
+}
+
+.article{
+    text-indent: 2.5rem;
+    width: 85%;
+}
+
+.card-img-1 {
+    float: left;
+}
+.card-body-1{
+    float: right;
+}
+#review-cards{
+    margin-left: 7%;
+}
+.text-shadow{
+    text-shadow: 1px 1px 2px black;
+}
